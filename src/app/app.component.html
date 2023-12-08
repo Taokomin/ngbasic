@@ -1,3 +1,17 @@
+<!-- <div class="btn-action-bar">
 <app-action-bar (numberChange)="testNumberChange($event)" [step]="5"></app-action-bar>
+</div>
+<div class="btn-action-bar">
 <app-action-bar (numberChange)="testNumberChange($event)" [step]="10"></app-action-bar>
+</div>
+<div class="btn-action-bar">
 <button type="button" (click)="testClick()">testEventBinding</button>
+</div> -->
+<!-- <app-max-min-meter [minLabel]="appMinLabel" [maxLabel]="appMaxLabel"></app-max-min-meter> -->
+<app-sqaure-flex [divWidth]="sqaureWidth" [divHeight]="sqaureHeight"></app-sqaure-flex>
+<div>
+    width :
+    <button type="button" (click)="sqaureWidth=50">50px</button>
+    <button type="button" (click)="sqaureWidth=100">100px</button>
+    <button type="button" (click)="sqaureWidth=200">200px</button>
+</div>
