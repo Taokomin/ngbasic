@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-ng-project';
+
+  testNumberChange(value : number){
+    console.log('test NumberChange from app action bar', value);
+  }
+  testClick(){
+    console.log("test Event Binding")
+  }
 }
